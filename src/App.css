@@ -1,0 +1,34 @@
+.App{
+  min-height: 100vh;
+  /*background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
+  /*background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);*/
+  /*background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);*/
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background:#84fab0;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipies{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
